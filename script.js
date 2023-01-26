@@ -37,7 +37,8 @@
          
                  <input type="checkbox" id=${task.id} ${task.completed ? 'checked' : ''} class="custom-checkbox"/>
                  <label for=${task.id}>${task.title}</label>
-                 <img src="/Users/dhirajudhani/Movies/coding\ ninjas\ web\ d\ resources/html/TO\ DO\ LIST/images/recycle-bin-icon.png 
+                 <img src="//Users/dhirajudhani/Projects/Github/Todo-List/images/recycle-bin-icon.png 
+ 
                  " class="delete" data-id=${task.id}>
                      `;
         tasksList.append(li);
