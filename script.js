@@ -37,7 +37,7 @@
          
                  <input type="checkbox" id=${task.id} ${task.completed ? 'checked' : ''} class="custom-checkbox"/>
                  <label for=${task.id}>${task.title}</label>
-                 <img src="/Users/dhirajudhani/Projects/Github/Todo-List/images/recycle-bin-icon.png 
+                 <img src="http://cdn.onlinewebfonts.com/svg/img_351586.png 
  
                  " class="delete" data-id=${task.id}>
                      `;
